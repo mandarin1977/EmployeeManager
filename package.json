@@ -1,0 +1,23 @@
+{
+  "name": "employee-management-system",
+  "version": "1.0.0",
+  "description": "직원 관리 시스템",
+  "main": "server/server-auth.js",
+  "scripts": {
+    "start": "node server/server-auth.js",
+    "dev": "node server/server-auth.js"
+  },
+  "dependencies": {
+    "express": "^5.1.0",
+    "cors": "^2.8.5",
+    "bcryptjs": "^3.0.2",
+    "express-session": "^1.18.1",
+    "drizzle-orm": "^0.44.2",
+    "drizzle-kit": "^0.31.4",
+    "@neondatabase/serverless": "^1.0.1",
+    "connect-pg-simple": "^10.0.0"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
